@@ -1,0 +1,80 @@
+body {
+    background: whitesmoke;
+    
+}
+
+.post {
+    background:white;
+    margin:top 40px;
+    width: 600px;
+    height: 750px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.post-header {
+    height: 50px;
+    width: 600px;
+    background: white;
+    display:flex;
+    flex-direction: row;
+    box-sizing:border-box;  
+    border-radius: 40px;  
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+
+.post-header img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left:8px;
+
+}
+
+.post-header p {
+    margin-left: 8px;
+    width: 85%;
+    font-size: 10px;
+}
+
+.post-header i  {
+    margin-left:30px;
+    margin-top:5px;
+    transform: rotate(90deg);
+    width: 7%;
+    
+}
+
+.post-image img{
+    height:400px;
+    width: 100%;
+    margin-bottom: 5px;     
+
+}
+
+
+.post-icons {
+    display:flex;
+    flex-direction: row;
+    box-sizing:content-box;    
+    align-items: center;
+    gap:5px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.post-icons .fa-solid.fa-bookmark {
+    margin-left: 465px;
+
+}
+
+.post-content {
+    margin-left:10px;
+}
+
+
